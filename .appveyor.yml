@@ -7,3 +7,5 @@ platform:
 install:
   - cmd: call C:\\Miniconda36-x64\Scripts\activate.bat
   - cmd: conda.exe list
+
+build: off
