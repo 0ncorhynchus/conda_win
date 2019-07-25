@@ -1,0 +1,16 @@
+package:
+  name: "test_project"
+  version: "0.0.1"
+
+source:
+  path: ./
+
+build:
+  number: 0
+  script_env:
+    - CC
+    - CXX
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
