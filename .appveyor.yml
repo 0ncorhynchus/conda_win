@@ -1,0 +1,9 @@
+image:
+  - Visual Studio 2017
+
+platform:
+  - x64
+
+install:
+  - cmd: call C:\\Miniconda36-x64\Scripts\activate.bat
+  - cmd: conda.exe list
