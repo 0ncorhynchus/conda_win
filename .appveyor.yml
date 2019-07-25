@@ -10,6 +10,6 @@ install:
   - cmd: conda.exe config --set show_channel_urls true
   - cmd: appveyor-retry conda.exe install --yes --quiet "conda!=4.6.1" conda-forge-pinning conda-forge-ci-setup=2.* networkx conda-build>=3.16
   - cmd: conda.exe list
-
-build:
   - cmd: conda.exe build .
+
+build: off
